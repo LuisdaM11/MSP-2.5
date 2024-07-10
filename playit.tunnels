@@ -1,59 +1,59 @@
 {
   "tcp_alloc": {
     "allowed": 6,
-    "claimed": 0,
-    "desired": 0
+    "claimed": 1,
+    "desired": 1
   },
   "tunnels": [
     {
       "active": true,
       "alloc": {
         "data": {
-          "assigned_domain": "events-flashers.gl.at.ply.gg",
-          "assigned_srv": null,
+          "assigned_domain": "washington-dylan.gl.joinmc.link",
+          "assigned_srv": "washington-dylan.gl.joinmc.link",
           "assignment": {
             "type": "shared-ip"
           },
-          "id": "fda9332a-b9dd-4424-bf40-330da6ef0ae3",
+          "id": "add141a0-95e1-4cbe-99b4-f063849c425c",
           "ip_hostname": "21.ip.gl.ply.gg",
           "ip_type": "both",
-          "port_end": 1076,
-          "port_start": 1075,
+          "port_end": 1854,
+          "port_start": 1853,
           "region": "global",
           "static_ip4": "147.185.221.21",
           "tunnel_ip": "2602:fbaf:0:1::15"
         },
         "status": "allocated"
       },
-      "created_at": "2024-07-09T19:07:06.987276Z",
+      "created_at": "2024-07-10T02:24:04.243430Z",
       "disabled_reason": null,
       "domain": null,
       "expire_notice": null,
       "firewall_id": null,
-      "id": "a19f3469-0c65-46ad-b317-fe883e6a0cc5",
-      "name": "unnamed",
+      "id": "9dc160fb-ee22-45f0-b8dd-eedad107deda",
+      "name": "Minecraft Java",
       "origin": {
         "data": {
           "agent_id": "035c9acb-a165-42e9-a746-de9a1c86516c",
           "agent_name": "ipfija",
           "local_ip": "127.0.0.1",
-          "local_port": 1075
+          "local_port": 25565
         },
         "type": "agent"
       },
       "port_count": 1,
-      "port_type": "udp",
+      "port_type": "tcp",
       "ratelimit": {
         "bytes_per_second": null,
         "packets_per_second": null
       },
       "region": "global",
-      "tunnel_type": null
+      "tunnel_type": "minecraft-java"
     }
   ],
   "udp_alloc": {
     "allowed": 6,
-    "claimed": 1,
-    "desired": 1
+    "claimed": 0,
+    "desired": 0
   }
 }
